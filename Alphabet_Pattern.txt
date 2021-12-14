@@ -1,0 +1,44 @@
+Output:
+
+Enter number of rows: 
+ 1. Pattern1 
+A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+
+ 2. Pattern2 
+A 
+B B 
+C C C 
+D D D D 
+E E E E E 
+
+ 3. Pattern3 
+E E E E E 
+D D D D 
+C C C 
+B B 
+A 
+
+ 4. Pattern4 
+     A 
+    A B 
+   A B C 
+  A B C D 
+ A B C D E 
+
+ 5. Pattern5 
+     A 
+    B B 
+   C C C 
+  D D D D 
+ E E E E E 
+
+ 6. Pattern6 
+ E E E E E 
+  D D D D 
+   C C C 
+    B B 
+     A 
