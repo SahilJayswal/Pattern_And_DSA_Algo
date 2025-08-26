@@ -6,6 +6,13 @@ public class Employee {
 	private String name;
 	private double salary;
 	
+	public Employee(int empNo, String name, double salary) {
+		super();
+		this.empNo = empNo;
+		this.name = name;
+		this.salary = salary;
+	}
+	
 	public int getEmpNo() {
 		return empNo;
 	}
