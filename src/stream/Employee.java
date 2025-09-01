@@ -6,6 +6,7 @@ public class Employee {
 	private String name;
 	private double salary;
 	private String department;
+	private int age;
 	
 	public Employee(int empNo, String name, double salary, String department) {
 		super();
@@ -13,6 +14,15 @@ public class Employee {
 		this.name = name;
 		this.salary = salary;
 		this.department = department;
+	}
+	
+	public Employee(int empNo, String name, double salary, String department, int age) {
+		super();
+		this.empNo = empNo;
+		this.name = name;
+		this.salary = salary;
+		this.department = department;
+		this.age = age;
 	}
 	
 	public int getEmpNo() {
@@ -40,9 +50,17 @@ public class Employee {
 		this.department = department;
 	}
 
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
 	@Override
 	public String toString() {
 		return "Employee [empNo=" + empNo + ", name=" + name + ", salary=" + salary + ", department=" + department
-				+ "]";
+				+ ", age=" + age + "]";
 	}
 }
